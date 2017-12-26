@@ -1,0 +1,1207 @@
+/*나눔바른고딕*/
+@import url(https://cdn.rawgit.com/openhiun/hangul/14c0f6faa2941116bb53001d6a7dcd5e82300c3f/nanumbarungothic.css);
+/*본고딕*/
+@import url(//fonts.googleapis.com/earlyaccess/notosanskr.css);
+/*스포카 한 산스*/
+@import url(//spoqa.github.io/spoqa-han-sans/css/SpoqaHanSans-kr.css);
+/*한나체*/
+@import url(//fonts.googleapis.com/earlyaccess/hanna.css);
+/*제주고딕*/
+@import url(//fonts.googleapis.com/earlyaccess/jejugothic.css);
+/*제주명조*/
+@import url(//fonts.googleapis.com/earlyaccess/jejumyeongjo.css);
+/*제주한라산*/
+@import url(//fonts.googleapis.com/earlyaccess/jejuhallasan.css);
+/*KoPub바탕*/
+@import url(//fonts.googleapis.com/earlyaccess/kopubbatang.css);
+/*나눔고딕*/
+@import url(//fonts.googleapis.com/earlyaccess/nanumgothic.css);
+/*나눔고딕코딩*/
+@import url(//fonts.googleapis.com/earlyaccess/nanumgothiccoding.css);
+/*나눔명조*/
+@import url(//fonts.googleapis.com/earlyaccess/nanummyeongjo.css);
+/*나눔손글씨붓*/
+@import url(//fonts.googleapis.com/earlyaccess/nanumbrushscript.css);
+/*나눔손글씨펜*/
+@import url(//fonts.googleapis.com/earlyaccess/nanumpenscript.css);
+
+/*다음체*/
+@font-face {
+  font-family: 'Daum';
+  font-style: normal;
+  font-weight: 400;
+  src: url('//cdn.jsdelivr.net/korean-webfonts/1/corps/daum/Daum/Daum-Regular.woff2') format('woff2'), url('//cdn.jsdelivr.net/korean-webfonts/1/corps/daum/Daum/Daum-Regular.woff') format('woff');
+}
+@font-face {
+  font-family: 'Daum';
+  font-style: normal;
+  font-weight: 700;
+  src: url('//cdn.jsdelivr.net/korean-webfonts/1/corps/daum/Daum/Daum-SemiBold.woff2') format('woff2'), url('//cdn.jsdelivr.net/korean-webfonts/1/corps/daum/Daum/Daum-SemiBold.woff') format('woff');
+}
+/*고도체*/
+@font-face {
+  font-family: 'Godo';
+  font-style: normal;
+  font-weight: 400;
+  src: url('//cdn.jsdelivr.net/korean-webfonts/1/corps/godo/Godo/GodoM.woff2') format('woff2'), url('//cdn.jsdelivr.net/korean-webfonts/1/corps/godo/Godo/GodoM.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Godo';
+  font-style: normal;
+  font-weight: 700;
+  src: url('//cdn.jsdelivr.net/korean-webfonts/1/corps/godo/Godo/GodoB.woff2') format('woff2'), url('//cdn.jsdelivr.net/korean-webfonts/1/corps/godo/Godo/GodoB.woff') format('woff');
+}
+/*한겨레결체*/
+@font-face {
+  font-family: 'Hankc';
+  font-style: normal;
+  font-weight: 400;
+  src: url('//cdn.jsdelivr.net/korean-webfonts/1/corps/hani/Hankc/Hankc.woff2') format('woff2'), url('//cdn.jsdelivr.net/korean-webfonts/1/corps/hani/Hankc/Hankc.woff') format('woff');
+}
+/*롯데마트 드림체*/
+@font-face {
+  font-family: 'LotteMartDream';
+  font-style: normal;
+  font-weight: 400;
+  src: url('//cdn.jsdelivr.net/korean-webfonts/1/corps/lottemart/LotteMartDream/LotteMartDreamMedium.woff2') format('woff2'), url('//cdn.jsdelivr.net/korean-webfonts/1/corps/lottemart/LotteMartDream/LotteMartDreamMedium.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'LotteMartDream';
+  font-style: normal;
+  font-weight: 700;
+  src: url('//cdn.jsdelivr.net/korean-webfonts/1/corps/lottemart/LotteMartDream/LotteMartDreamBold.woff2') format('woff2'), url('//cdn.jsdelivr.net/korean-webfonts/1/corps/lottemart/LotteMartDream/LotteMartDreamBold.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'LotteMartDream';
+  font-style: normal;
+  font-weight: 300;
+  src: url('//cdn.jsdelivr.net/korean-webfonts/1/corps/lottemart/LotteMartDream/LotteMartDreamLight.woff2') format('woff2'), url('//cdn.jsdelivr.net/korean-webfonts/1/corps/lottemart/LotteMartDream/LotteMartDreamLight.woff') format('woff');
+}
+/*롯데마트 행복체*/
+@font-face {
+  font-family: 'LotteMartHappy';
+  font-style: normal;
+  font-weight: 400;
+  src: url('//cdn.jsdelivr.net/korean-webfonts/1/corps/lottemart/LotteMartHappy/LotteMartHappyMedium.woff2') format('woff2'), url('//cdn.jsdelivr.net/korean-webfonts/1/corps/lottemart/LotteMartHappy/LotteMartHappyMedium.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'LotteMartHappy';
+  font-style: normal;
+  font-weight: 700;
+  src: url('//cdn.jsdelivr.net/korean-webfonts/1/corps/lottemart/LotteMartHappy/LotteMartHappyBold.woff2') format('woff2'), url('//cdn.jsdelivr.net/korean-webfonts/1/corps/lottemart/LotteMartHappy/LotteMartHappyBold.woff') format('woff');
+}
+/*대한체*/
+@font-face {
+  font-family: 'Daehan';
+  font-style: normal;
+  font-weight: 400;
+  src: url('//cdn.jsdelivr.net/korean-webfonts/1/corps/yoon/Daehan/DaehanR.woff2') format('woff2'), url('//cdn.jsdelivr.net/korean-webfonts/1/corps/yoon/Daehan/DaehanR.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Daehan';
+  font-style: normal;
+  font-weight: 700;
+  src: url('//cdn.jsdelivr.net/korean-webfonts/1/corps/yoon/Daehan/DaehanB.woff2') format('woff2'), url('//cdn.jsdelivr.net/korean-webfonts/1/corps/yoon/Daehan/DaehanB.woff') format('woff');
+}
+/*부산체*/
+@font-face {
+  font-family: 'Busan';
+  font-style: normal;
+  font-weight: 400;
+  src: url('//cdn.jsdelivr.net/korean-webfonts/1/orgs/govs/busan/Busan/Busan.woff2') format('woff2'), url('//cdn.jsdelivr.net/korean-webfonts/1/orgs/govs/busan/Busan/Busan.woff') format('woff');
+}
+/*성동고딕체*/
+@font-face {
+  font-family: 'SungDongGothic';
+  font-style: normal;
+  font-weight: 700;
+  src: url('//cdn.jsdelivr.net/korean-webfonts/1/orgs/govs/sdgu/SungDongGothic/SungDongGothicB.woff2') format('woff2'), url('//cdn.jsdelivr.net/korean-webfonts/1/orgs/govs/sdgu/SungDongGothic/SungDongGothicB.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'SungDongGothic';
+  font-style: normal;
+  font-weight: 800;
+  src: url('//cdn.jsdelivr.net/korean-webfonts/1/orgs/govs/sdgu/SungDongGothic/SungDongGothicEB.woff2') format('woff2'), url('//cdn.jsdelivr.net/korean-webfonts/1/orgs/govs/sdgu/SungDongGothic/SungDongGothicEB.woff') format('woff');
+}
+/*성동명조체*/
+@font-face {
+  font-family: 'SungDongMyungjo';
+  font-style: normal;
+  font-weight: 400;
+  src: url('//cdn.jsdelivr.net/korean-webfonts/1/orgs/govs/sdgu/SungDongMyungjo/SungDongMyungjoR.woff2') format('woff2'), url('//cdn.jsdelivr.net/korean-webfonts/1/orgs/govs/sdgu/SungDongMyungjo/SungDongMyungjoR.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'SungDongMyungjo';
+  font-style: normal;
+  font-weight: 700;
+  src: url('//cdn.jsdelivr.net/korean-webfonts/1/orgs/govs/sdgu/SungDongMyungjo/SungDongMyungjoB.woff2') format('woff2'), url('//cdn.jsdelivr.net/korean-webfonts/1/orgs/govs/sdgu/SungDongMyungjo/SungDongMyungjoB.woff') format('woff');
+}
+/*청소년체*/
+@font-face {
+  font-family: 'Youth';
+  font-style: normal;
+  font-weight: 400;
+  src: url('//cdn.jsdelivr.net/korean-webfonts/1/orgs/othrs/kywa/Youth/Youth.woff2') format('woff2'), url('//cdn.jsdelivr.net/korean-webfonts/1/orgs/othrs/kywa/Youth/Youth.woff') format('woff');
+}
+/*바른바탕체*/
+@font-face {
+  font-family: 'BareunBatang';
+  font-style: normal;
+  font-weight: 400;
+  src: url('//cdn.jsdelivr.net/korean-webfonts/1/orgs/othrs/kpa/BareunBatang/BareunBatangOTFM.woff2') format('woff2'), url('//cdn.jsdelivr.net/korean-webfonts/1/orgs/othrs/kpa/BareunBatang/BareunBatangOTFM.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'BareunBatang';
+  font-style: normal;
+  font-weight: 700;
+  src: url('//cdn.jsdelivr.net/korean-webfonts/1/orgs/othrs/kpa/BareunBatang/BareunBatangOTFB.woff2') format('woff2'), url('//cdn.jsdelivr.net/korean-webfonts/1/orgs/othrs/kpa/BareunBatang/BareunBatangOTFB.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'BareunBatang';
+  font-style: normal;
+  font-weight: 300;
+  src: url('//cdn.jsdelivr.net/korean-webfonts/1/orgs/othrs/kpa/BareunBatang/BareunBatangOTFL.woff2') format('woff2'), url('//cdn.jsdelivr.net/korean-webfonts/1/orgs/othrs/kpa/BareunBatang/BareunBatangOTFL.woff') format('woff');
+}
+/*바른돋움체*/
+@font-face {
+  font-family: 'BareunDotum';
+  font-style: normal;
+  font-weight: 400;
+  src: url('//cdn.jsdelivr.net/korean-webfonts/1/orgs/othrs/kpa/BareunDotum/BareunDotumOTFPro2.woff2') format('woff2'), url('//cdn.jsdelivr.net/korean-webfonts/1/orgs/othrs/kpa/BareunDotum/BareunDotumOTFPro2.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'BareunDotum';
+  font-style: normal;
+  font-weight: 700;
+  src: url('//cdn.jsdelivr.net/korean-webfonts/1/orgs/othrs/kpa/BareunDotum/BareunDotumOTFPro3.woff2') format('woff2'), url('//cdn.jsdelivr.net/korean-webfonts/1/orgs/othrs/kpa/BareunDotum/BareunDotumOTFPro3.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'BareunDotum';
+  font-style: normal;
+  font-weight: 300;
+  src: url('//cdn.jsdelivr.net/korean-webfonts/1/orgs/othrs/kpa/BareunDotum/BareunDotumOTFPro1.woff2') format('woff2'), url('//cdn.jsdelivr.net/korean-webfonts/1/orgs/othrs/kpa/BareunDotum/BareunDotumOTFPro1.woff') format('woff');
+}
+
+input[type="password"]
+{
+  -webkit-text-security: disc;
+  font: large Verdana,sans-serif;
+  color: #00a997;
+}
+
+
+button {
+    background-color:transparent;
+    border:none;
+    padding:0;
+    margin:0;
+}
+button:focus {
+    background-color:transparent !important;
+}
+
+a {
+    color: inherit !important;
+}
+
+/*a:hover {*/
+/*    background-color:transparent;*/
+/*}*/
+input {
+    font-size:1.1em !important;
+}
+
+body {
+    font-family: 'NanumSquare', sans-serif;
+    background-color:#fafafa ;
+}
+.normal		{ font-weight: 400 }
+.bold		{ font-weight: 700 }
+.bolder		{ font-weight: 800 }
+.light		{ font-weight: 300 }
+
+.mobile-menu-section {
+    display:none;
+}
+
+.c-btn {
+    font-size: 1.2rem;
+    background-color: transparent;
+    color: #00A997 !important;
+    box-shadow: none;
+    border: 1px solid #00a997;
+    border-radius: 25px;
+    margin: 10px 0px;
+    height: 40px;
+    line-height: 1.5;
+    transition: 0.3s;
+    padding: 5px 10px;
+}
+
+.c-btn:hover {
+    background-color: #00a997 !important;
+    color: #fff !important;
+}
+
+.wrap {
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 0px;
+    z-index:1;
+}
+.row{
+    width: 80%;
+}
+
+.header-wrap {
+    width:100%;
+    position: fixed;
+    margin: 0 auto;
+    padding: 0;
+    z-index: 2;
+    height: 60px;
+    background-color: #212121;
+}
+.header {
+    position: relative;
+}
+
+.header .logo {
+    margin: 12px 10%;
+}
+
+.header .logo-sec {
+    display:inline-block;
+    position:absolute;
+    left: 5%;
+}
+
+.header .tap-menu a {
+    cursor: pointer;
+    opacity:0.7;
+    transition:0.3s;
+    color: #fff !important;
+    line-height: 60px;
+    font-weight:300;
+    font-size:15px;
+    text-align: center;
+    font-family: 'NanumBarunGothic', sans-serif;
+}
+
+.header .tap-menu a:hover {
+    opacity:1;
+}
+
+.header .menu-section {
+    position: absolute;
+    right: 2.5% !important;
+    text-align: right;
+}
+
+.header .menu-section .header-right {
+   line-height: 90px;
+   vertical-align: middle;
+}
+
+.header .menu-section .header-right svg {
+    margin: 18px 25px;
+}
+
+.header .menu-section .donate {
+    color:#fff !important;
+    background-color:#51A39A;
+    border-radius: 14.5px;
+    padding: 8px 12px;
+    line-height: 1;
+    display:inline-block;
+    font-size:14px;
+    text-align:center;
+    /*font-family: 'NanumSquare', sans-serif !important;*/
+    font-family: 'NanumBarunGothic', sans-serif !important;
+    font-weight:300;
+    position: relative;
+    bottom: 26px;
+    /*left: 20px;*/
+}
+
+.header .menu-section .menu-icon {
+    /*display:inline-block;*/
+    /*width:74px;*/
+    position:relative;
+    left:0px;
+}
+
+.header .menu-section .menu-icon.menu-txt {
+    color: #fff !important;
+    line-height: 60px;
+    font-weight:300;
+    font-size:15px;
+    text-align: center;
+    vertical-align: top;
+    border-radius: 16px;
+    padding: 8px 12px;
+    line-height: 1;
+    display:inline-block;
+    /*border: 1px solid #fff;*/
+    position: relative;
+    top: 14px;
+    left: 0px;
+    margin: 0px 10px;
+}
+
+.header .header-right .menu-icon:hover g {
+    fill: #fff;
+    transition:0.3s;
+}
+
+.header .search-area {
+    border: 1px solid #aaa;
+    border-radius:20px;
+    height:40px;
+    width:232px;
+    display:inline-block !important;
+    position:relative;
+    top: 10px;
+    /*right:20px;*/
+}
+
+.search-area .search-btn {
+    position:relative;
+    bottom: 10px;
+    left:8px;
+}
+
+.search-area .search-txt {
+    display:inline-block;
+    width: 180px !important;
+    /*font-family: 'NanumSquare', sans-serif !important;*/
+    font-family: 'NanumBarunGothic', sans-serif !important;
+    position:absolute;
+    left:24px;
+    bottom: -23px;
+    border:0px !important;
+    color:#fff !important;
+    font-size: 14px !important;
+}
+
+input.search-txt[type=text]:not(.browser-default):focus:not([readonly]) {
+    border-color:#fff !important;
+    box-shadow: none;
+}
+/*
+.search-area button {
+    margin-top: 15px;
+    cursor:default;
+}
+.search-area button svg g {
+    fill: #fff !important;
+}
+.search-area button:focus {
+    background-color:transparent;
+}
+.search-area button:hover svg g {
+    fill:#fff;
+}
+.search-area button svg g {
+    fill:#fff;
+}
+*/
+.search-txt::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: rgba(255,255,255,0.6) !important;
+}
+.search-txt::-moz-placeholder { /* Firefox 19+ */
+  color: rgba(255,255,255,0.6) !important;
+}
+.search-txt:-ms-input-placeholder { /* IE 10+ */
+  color: rgba(255,255,255,0.6) !important;
+}
+.search-txt:-moz-placeholder { /* Firefox 18- */
+  color: rgba(255,255,255,0.6) !important;
+}
+
+.contents {
+    padding: 0px 0px;
+    width: 100%;
+    margin:0 auto;
+}
+
+.filter-none {
+    color: #aaa !important;
+    transition:0.3s;
+    cursor: pointer;
+}
+
+.filter-none:hover {
+    color:#00a997 !important;
+}
+.filtering .label-font {
+    font-size:18px;
+    color:#212121;
+}
+
+.filtering span {
+    margin: 0px 8px;
+}
+
+.filter-btn-sec {
+    text-align: center;
+    /*margin: 0 auto;*/
+}
+
+.filter-btn-sec .filter-btn {
+    border:1px solid #fff;
+    border-radius:24px;
+    padding: 7px 14px 4px 14px;
+    transition:0.3s;
+}
+
+.filter-btn-sec .filter-btn:hover {
+    background-color: rgba(0,0,0,0.2);
+}
+
+.filter-btn-sec .filter-btn:hover .search-filter {
+    color: #fff;
+}
+
+.filter-btn-sec .filter-btn:hover .filter-icon g {
+    fill: #fff;
+}
+
+.filter-btn-sec .filter-icon g {
+    fill:#fff;
+}
+
+.filter-btn-sec .search-filter {
+    line-height: 24px;
+    vertical-align: top;
+    font-size: 1.1em;
+    color:#fff;
+    margin-left: 1.5px;
+}
+
+.placeholder-change input#all_fonts {
+    font-size:18px !important;
+    font-family: 'NanumSquare', sans-serif !important;
+    text-indent:4px;
+    margin-bottom: 28px;
+}
+
+.box-section {
+    margin:30px 0px;
+}
+.box {
+    width: 100%;
+    /*border-top: 2px solid #aaa;*/
+    /*margin-bottom: 20px;*/
+    height: 282px;
+    margin: 0px auto 20px auto;
+    box-shadow: 0 0 2px rgba(0,0,0,.2);
+    transition: all 150ms ease-in-out;
+    background-color:#fff;
+    border-radius: 3px;
+    padding: 8px;
+    position:relative;
+}
+.box:hover {
+    box-shadow: 0 2px 8px rgba(0,0,0,.2);
+}
+
+.box .font-box .checked {
+    position: absolute;
+    top: 12px;
+    right: 12px;
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    background-color:#4cbb9d;
+    border-radius: 10px;
+    transition:0.4s;
+    font-size: 13px;
+    font-weight:500;
+}
+/*
+.box .font-box .check-txt {
+    top: 3px;
+    position:relative;
+    transition:0.4s;
+}
+*/
+
+.box .font-box .checked.fa {
+    background-color: #FFB600;
+    font-weight:600;
+    
+}
+
+.box .font-box:hover .checked.tr .trTip  {
+    opacity: 1;
+}
+
+.box .font-box:hover .checked.fa .faTip {
+    opacity: 1;
+}
+
+.box .font-box .faTip tspan {
+    font-weight:600;
+}
+
+.box .tipBox {
+    position:absolute;
+    z-index: 99;
+    opacity:0;
+    transition:0.3s;
+    display:inline-block;
+}
+
+.box .tipBox.trTip {
+    top: -30px;
+    right: -5px;
+}
+
+.box .tipBox.faTip {
+    top: -30px;
+    right: -9px;
+}
+
+.box .tipBox tspan {
+    font-family: 'NanumBarunGothic', sans-serif;
+    font-weight: 400;
+}
+
+.box .font-box {
+    border-bottom: 1px solid #cecece;
+    padding: 15px;
+    position: relative;
+}
+.box .font-box .font-name {
+    font-size: 1.4em;
+    margin-bottom: 8px;
+    display: inline-block;
+    color: inherit;
+}
+.box .font-box .font-name:hover {
+    color: #00a997 !important;
+    transition: 0.3s;
+}
+.box .font-box .font-br {
+    font-size: 1em;
+}
+
+
+.box .block {
+    fill:none;
+}
+.box .text-box .custom-txt {
+    font-size: 1.9em;
+    padding:15px;
+    line-height: 1.4;
+    border: none;
+    height: 160px;
+    border-bottom: 0px solid #aaa;
+    resize: none;
+    overflow: hidden;
+}
+
+textarea::-webkit-input-placeholder {
+color: #3d3d3d !important;
+}
+ 
+textarea:-moz-placeholder { /* Firefox 18- */
+color: #3d3d3d !important;  
+}
+ 
+textarea::-moz-placeholder {  /* Firefox 19+ */
+color: #3d3d3d !important;  
+}
+ 
+textarea:-ms-input-placeholder {  
+color: #3d3d3d !important;  
+}
+
+/*------------*/
+
+input::-webkit-input-placeholder {
+color: #aaa !important;
+font-family: 'NanumSquare', sans-serif;
+}
+ 
+input:-moz-placeholder { /* Firefox 18- */
+color: #aaa !important;  
+font-family: 'NanumSquare', sans-serif;
+}
+ 
+input::-moz-placeholder {  /* Firefox 19+ */
+color: #aaa !important;  
+font-family: 'NanumSquare', sans-serif;
+}
+ 
+input:-ms-input-placeholder {  
+color: #aaa !important; 
+font-family: 'NanumSquare', sans-serif;
+}
+
+.box .text-box .custom-txt:focus {
+    outline-offset: inherit;
+    outline: none;
+    border-color: #00a997;
+    transition: 0.5s;
+}
+.box.googlead {
+    font-size: 2em;
+    background-color:#cecece;
+    height: 250px;
+    width: 300px;
+    text-align: center;
+    color: #fff;
+    line-height: 250px;
+    vertical-align: middle;
+}
+.footer {
+    background-color: #212121;
+    padding: 4% 7.5% 5%;
+    font-family: 'NanumSquare', sans-serif;
+}
+.footer .f-right {
+    float: right;
+    color: #aaa;
+    font-size: 16.5px;
+    line-height: 1.5;
+    text-align: right;
+}
+.footer .f-right .f-link {
+    transition:0.3s;
+    display: inline-block;
+    margin-left: 6px;
+}
+
+.footer .f-right .f-link:hover {
+    color: #00a997 !important;
+}
+
+.footer .f-logo {
+    height: 64px;
+    fill:#fff;
+     filter:opacity(0.7);
+     /* IE 8 */
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=70)";
+    
+    /* IE 5-7 */
+    filter: alpha(opacity=70);
+    
+    /* Netscape */
+    -moz-opacity: 0.7;
+    
+    /* Safari 1.x */
+    -khtml-opacity: 0.7;
+    
+    /* Good browsers */
+    opacity: 0.7;
+}
+
+
+/*donate.css*/
+
+.intro {
+    font-family: 'NanumSquare', sans-serif;
+    padding: 150px 0px 100px 0px;
+    text-align: center;
+    font-size: 1.3em;
+}
+
+.intro-title {
+    font-size: 2em;
+    margin-bottom: 40px;
+}
+
+.intro-ex {
+    line-height: 1.7;
+}
+
+.intro-subtitle {
+    font-size:1.2em;
+    font-weight: 600;
+}
+.intro-bank {
+    padding: 40px;
+}
+.intro-more {
+    padding: 20px;
+}
+
+.intro-ex a {
+    color: #00a997;
+}
+
+.intro-add {
+    margin-top: 50px;
+}
+
+.intro-ex-add {
+    font-size:16.5px;
+    color: #aaa;
+    line-height: 1.5;
+}
+
+.wrap.listPage {
+    padding-top: 80px;
+    font-family: 'NanumSquare', sans-serif;
+}
+
+/*font-page*/
+
+.font-page {
+    color: #3d3d3d;
+    padding:60px 12%;
+}
+
+.font-title {
+    font-size: 38px;
+}
+
+.company-title {
+    font-size: 19px;
+    margin-left: 23px;
+}
+
+.font-usage {
+    margin: 35px 0px 25px 0px;
+}
+
+.font-usage .usage-title {
+    font-size:22px;
+    margin-right: 5%;
+    margin-left: 5px;
+}
+.font-usage .usage-name {
+    display: inline-block;
+    margin: 0px 1%;
+    font-size: 16.5px;
+}
+
+.c-true {
+    color:#3d3d3d;
+}
+
+.c-false {
+    color: #ff9e00;
+}
+
+.c-red {
+    color: #FF6666;
+}
+
+.c-green{
+    color: #00a997;
+}
+
+.c-bggreen {
+    background-color: #00a997;
+    padding: 3px 5px;
+    color:#fff;
+    line-height: 1.6;
+}
+
+.font-usage-ex {
+    font-size: 16.5px;
+    line-height: 1.5;
+    position: relative;
+}
+
+.font-usage-ex .usage-ex {
+    margin-right: 10px;
+}
+
+/*.font-usage-ex .ex-group {*/
+/*    position: absolute;*/
+/*    right:20px;*/
+/*    display: inline-block;*/
+/*}*/
+
+.font-contents {
+    margin: 40px 0px 20px 0px;
+    font-size: 17px;
+    line-height: 1.5;
+}
+
+
+.font-title-sec .download-btn {
+    margin-left: 40px;
+    padding: 8px;
+    transition: 0.3s;
+    border-radius: 50%;
+    display: inline-block;
+}
+.font-title-sec .download-btn:hover {
+    background-color: rgba(0,0,0,0.1);
+}
+
+.font-cdn-sec .cdn-code {
+    font-family: Consolas, 'Liberation Mono', Menlo, Courier, monospace !important;
+    position: relative !important;
+    overflow: scroll;
+    margin: 0;
+    padding: 20px;
+    border: none;
+    background-color: #eeeeee;
+    border-radius: 4px;
+    color: #000;
+}
+
+.font-cdn-sec .cdn-code p {
+    line-height: 1.3;
+    margin-bottom: 20px;
+}
+
+.font-cdn-sec .cdn-title {
+    font-size:22px;
+    display:inline-block;
+    margin-bottom:15px;
+}
+
+
+
+
+/*로그인페이지*/
+.wrap .subpage .line {
+    border-bottom: 2px solid #3d3d3d;
+    display: inline-block;
+    width: 26px;
+    margin-bottom: 30px;
+}
+.wrap .signup-title {
+    margin: 0rem;
+    line-height: 2.4;
+    font-size: 35px;
+    font-family:'NanumSquare', sans-serif;
+    color: #3d3d3d;
+}
+
+.wrap .subpage {
+    padding:60px 30% 150px;
+}
+
+.wrap .form-inputs .signBox  {
+    line-height: 2.3;
+    
+}
+
+.wrap .form-actions {
+    text-align: center;
+}
+
+.wrap .form-actions .btn {
+    font-size: 1.2rem;
+    background-color: transparent;
+    color: #00A997;
+    box-shadow: none;
+    border: 1px solid #00a997;
+    border-radius: 25px;
+    margin: 10px 0px;
+    height: 40px;
+    line-height: 40px;
+    transition: 0.3s;
+}
+
+.wrap .form-actions .btn:hover {
+    background-color: #00a997;
+    color: #fff;
+}
+
+
+.editDestroyBtn:hover {
+    color:#00a997 !important;
+}
+
+/*게시글등록 form*/
+.snsLogin {
+    text-align: center;
+}
+
+.snsLogin .c-smallBtn {
+    margin: 8px auto;
+    /*color: transparent !important;*/
+    width: 250px;
+    /*height: 49px;*/
+    font-size:16.5px;
+    color:#fff !important;
+    padding: 5px 0px 14px;
+    border-radius: 6px;
+    position: relative;
+}
+
+.snsLogin .c-smallBtn svg {
+    margin-top: 5px;
+    margin-right: 15px;
+    position: inherit;
+    top: 3px;
+}
+
+.snsLogin .c-smallBtn:nth-child(1) {
+    /*background-image: url('facebook_login.png');*/
+    /*background-size: 222px;*/
+    /*height: 40px;*/
+    background-color:#4267b2;
+    vertical-align: top;
+    padding: 3px 0px 16px;
+    
+}
+
+.snsLogin .c-smallBtn:nth-child(1) svg {
+    top:4px;
+    margin-right: 8px;
+}
+
+.snsLogin .c-smallBtn:nth-child(2) {
+    /*background-image: url('naver_login.png');*/ 
+    background-color:#00c73c;
+}
+
+.snsLogin .c-smallBtn:nth-child(3) {
+    /*background-image: url('kakao_account_login_btn_medium_narrow.png');*/
+    background-color:#ffde00;
+    color:#4d4b3a !important;
+}
+
+.c-smallBtn {
+    margin-bottom: 10px;
+    display:block;
+    transition: 0.3s;
+}
+
+.c-smallBtn:hover {
+    filter: brightness(80%);
+}
+
+.c-smBtn-sec {
+    margin-bottom:20px;
+}
+
+.c-smBtn {
+    transition: 0.3s;
+}
+
+.c-smBtn:hover {
+    color:#00a997 !important;
+}
+
+.c-btn.c-mt {
+    margin-top:3px;
+    display:inline-block;
+    padding: 6px 30px;
+    font-size: 17px;
+}
+
+
+
+.actions {
+    text-align: center;
+}
+
+.field {
+    margin: 10px;
+}
+
+.tp-mr {
+    margin-top: 10px;
+    display:inline-block;
+}
+
+.c-label {
+    font-size: 16.5px;
+    color: #3d3d3d;
+    margin-left: 6px;
+}
+
+.c-textarea {
+    resize: none;
+    height: 100px;
+    margin: 10px 0px;
+    border-radius: 5px;
+    background-color: #fafafa;
+    border: #aaa 1px solid;
+    padding: 10px;
+}
+.c-textarea:focus {
+    outline: -webkit-focus-ring-color none;
+    border: #00a997 1px solid;
+    box-shadow: 0 2px 8px rgba(0,0,0,.2) !important;
+}
+
+.c-textfield {
+    height: 2rem !important;
+    text-indent: 10px;
+}
+
+.c-textfield:focus {
+    border-bottom: 1px solid #00a997 !important;
+}
+
+/*게시글 show*/
+.noti {
+    margin-top: 20px;
+}
+.showTitle {
+    font-size: 30px;
+    margin: 16px 0px;
+    color: #3d3d3d;
+}
+
+.showImage {
+    margin-bottom: 15px;
+}
+
+.shBoxWrap {
+    margin-bottom: 15px;
+}
+
+.shBox {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.showSTitle {
+    font-size: 18px;
+    margin-right: 10px;
+}
+
+.cmtTitle {
+    display:inline-block;
+    margin: 5px 0px 10px;
+    font-size: 16.5px;
+}
+
+.cmtFontName {
+    color: #fff;
+    background-color: #00a997;
+    padding: 3px 5px;
+}
+
+.cmtBest {
+    font-size: 16.5px;
+    border-bottom: dashed 1px #aaa;
+    border-top: dashed 1px #aaa;
+    padding: 10px 0px;
+    margin: 0px 0px 10px;
+}
+
+.cmtEmail {
+    margin-right: 5px;
+    display:inline-block;
+    font-size: 15px;
+    color:#3d3d3d;
+}
+
+.cmtContents {
+    display: inline-block;
+    margin: 10px 0px 0px;
+}
+
+.c-textarea.cmt-ht {
+    height: 3rem;
+}
+
+.cmtItem {
+    margin: 10px 0px;
+    border-bottom: 1px dashed #cecece;
+    padding-bottom: 10px;
+}
+
+.cmtItem .cmtFont {
+    margin:10px 0px;
+    font-size: 15px;
+}
+
+.cmtItem .cmtContent {
+    margin: 10px 0px;
+}
+
+.cmtItem .btnSmall {
+    color: #00a977;
+}
+
+.cmtItem .cmtEmail {
+    font-size: 15px;
+    color:#3d3d3d;
+}
+
+.label-font {
+    font-family: 'NanumSquare', sans-serif;
+    transition:0.4s;
+}
+
+.c-gray {
+    color:rgba(255,255,255,0.6);
+}
+
+/*pick*/
+.wrap.listPage .pickTitle {
+    margin:50px 0px 30px;
+    font-size: 40px;
+    text-align: left;
+    margin-bottom: 25px;
+    color: #3d3d3d;
+    text-indent: 20px;
+}
+
+.wrap.listPage .pickTitle .titleHashtag {
+    font-size: 16.5px;
+    color:#868686;
+    text-indent: 20px;
+    display:inline-block;
+    font-weight: 600;
+}
+
+.preloader-middle {
+    margin-top: 28px;
+    text-align: center;
+    display:none;
+}
+
+.preloader-middle .preloader-wrapper.small {
+    width: 28px;
+    height: 28px;
+}
+
+.preloader-middle .preloader-wrapper .spinner-layer {
+    border-color: #00a997;
+}
+
+/*디자인수정*/
+.headTitle {
+    text-align: center;
+    color:#fff;
+    font-size: 35px;
+    margin: 50px 0px;
+    line-height: 1.2;
+}
+
+.filterQ {
+    margin-top:18px;
+    text-align: left;
+    color:#212121;
+    font-size:22px;
+    margin-bottom: 12px;
+    font-family: 'NanumSquare', sans-serif;
+    font-weight: 800;
+    text-indent:8px;
+}
+
+.display{
+    display:none;
+}
+
+.active{
+        opacity: 1 !important;
+}
+
